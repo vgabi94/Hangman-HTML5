@@ -40,7 +40,7 @@ function checkWin(p)
 }
 
 $(document).ready(function(){
-    var w = words[Math.floor(Math.random()*words.length)];
+    var w = words[Math.floor(Math.random() * words.length)];
     var guess = "";
     var t = 0;
     var c = document.getElementById("display");
